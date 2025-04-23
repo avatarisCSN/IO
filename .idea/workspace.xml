@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3819e9c-5ae8-485f-a90a-36d40db4d270" name="Changes" comment="Input/Output Demo-s">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ByteFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileCopy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileCopyUTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ObjectsCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrintWriterEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrintWriterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseStringCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/texter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../terrain/src/main/java/org/example/terrain/MovingDot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../terrain/src/main/java/org/example/terrain/MovingDotsWithTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/HeavyBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/MyArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/SimpleTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/someHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_practical_tasks/out/production/java_practical_tasks/calculateDuplicateNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/out/production/java_practical_tasks/calculateDuplicateNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_practical_tasks/src/calculateDuplicateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_practical_tasks/src/calculateDuplicateNumbers.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vjd4EZo3p82DsWthLVhdxv4ZSX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ByteFrequency.executor": "Run",
+    "Application.FileCopy.executor": "Run",
+    "Application.FileCopy2.executor": "Run",
+    "Application.FileCopyUTF.executor": "Run",
+    "Application.FileIODemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NumberValid.executor": "Run",
+    "Application.ObjectsCopy.executor": "Run",
+    "Application.PrintWriterEx.executor": "Run",
+    "Application.PrintWriterExample.executor": "Run",
+    "Application.ReverseStringCopy.executor": "Run",
+    "Application.codepoint.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\4проекты\Java Graphic\Collections\IO" />
+      <recent name="C:\Users\user\IdeaProjects\4проекты\Java Graphic\Collections\IO\target" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3819e9c-5ae8-485f-a90a-36d40db4d270" name="Changes" comment="" />
+      <created>1744662228162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744662228162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Input/Output Demo-s" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input/Output Demo-s" />
+  </component>
+</project>
