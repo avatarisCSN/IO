@@ -1,27 +1,36 @@
 package goit;
 
-import java.io.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Second {
     public static void main(String[] args) {
-        User person = new User("Bill", 30);
+        JSONObject jsonObject = new JSONObject();
 
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String json = gson.toJson(person);
 
-        System.out.println(json);
-        try(FileReader reader = new FileReader("src/main/resources/file2.txt");
-            ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream("src/main/resources/user.json"));
-        ) {
-            writer.writeObject(person);
-            System.out.println("Объект успешно записан");
-        } catch(IOException e) {
-            System.out.println("exception " + e.getMessage());
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/file2.txt"));
+             FileWriter output = new FileWriter("src/main/resources/user.json")) {
+
+            String[] input = reader.readLine().split(" ");
+
+            String line;
+            while((line = reader.readLine()) != null) {
+                String[] value = line.split(" ");
+                jsonObject.put(input[0], value[0]);
+                jsonObject.put(input[1], value[1]);
+                output.write(jsonObject.toString(2));
+                System.out.println(input[0] + " " + value[0]);
+            }
+
+
+            System.out.println("JSON успешно записан в файл.");
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
-
