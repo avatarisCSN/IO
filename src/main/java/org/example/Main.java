@@ -12,9 +12,9 @@ public class Main {
         System.out.println(new File(".").getAbsolutePath());
         try (
                 InputStreamReader fin = new InputStreamReader(
-                        new FileInputStream("src/main/resources/input.txt"), StandardCharsets.UTF_8);
+                        new FileInputStream("Files/input.txt"), StandardCharsets.UTF_8);
                 OutputStreamWriter fout = new OutputStreamWriter(
-                        new FileOutputStream("src/main/resources/output.txt"), StandardCharsets.UTF_8)
+                        new FileOutputStream("Files/output.txt"), StandardCharsets.UTF_8)
         ) {
             int i;
             String outputPath = "src/main/resources/output.txt";

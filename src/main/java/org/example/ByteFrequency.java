@@ -6,10 +6,11 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class ByteFrequency {
+
     public static void main(String[] args) {
         HashMap<Byte,Integer> map = new HashMap<>();
         map.put((byte) 1,0);
-        try( FileInputStream in = new FileInputStream("texter.txt"))
+        try( FileInputStream in = new FileInputStream("Files/texter.txt"))
         {
             int b;
             while ((b=  in.read())!=-1){

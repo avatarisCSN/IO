@@ -13,8 +13,8 @@ public class NumberValid {
     public static void main(String[] args) {
 
 
-        try(BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
-            BufferedWriter writer = new BufferedWriter(new FileWriter("sorted_file.txt"))){
+        try(BufferedReader reader = new BufferedReader(new FileReader("Files/file.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("Files/sorted_file.txt"))){
             String line;
             while((line=reader.readLine())!=null){
                if(isValidPhone(line)){

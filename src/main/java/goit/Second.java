@@ -15,10 +15,12 @@ public class Second {
 
         System.out.println(json);
         try(FileReader reader = new FileReader("src/main/resources/file2.txt");
-            FileWriter writer = new FileWriter("src/main/resources/file2_out.txt");
+            ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream("src/main/resources/user.json"));
         ) {
+            writer.writeObject(person);
+            System.out.println("Объект успешно записан");
         } catch(IOException e) {
-            System.out.println("exception" + e.getMessage());
+            System.out.println("exception " + e.getMessage());
         }
     }
 }

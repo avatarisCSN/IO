@@ -9,7 +9,7 @@ public class PrintWriterEx {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        try(PrintWriter input = new PrintWriter("log.txt")){
+        try(PrintWriter input = new PrintWriter("Files/log.txt")){
             String line;
             while(scan.hasNext()){
                 if(scan.nextLine()=="exit"){

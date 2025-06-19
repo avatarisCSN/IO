@@ -9,8 +9,8 @@ public class FileCopy {
 
 
         try (
-                FileInputStream fileIn = new FileInputStream("file.txt");
-                FileOutputStream fileOut = new FileOutputStream("copied_file.txt")
+                FileInputStream fileIn = new FileInputStream("Files/file.txt");
+                FileOutputStream fileOut = new FileOutputStream("Files/copied_file.txt")
         ) {
             int a;
             while ((a = fileIn.read()) != -1) {

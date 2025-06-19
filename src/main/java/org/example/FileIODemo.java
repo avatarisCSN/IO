@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class FileIODemo {
     public static void main(String[] args) {
-        try(OutputStream output = new FileOutputStream("a.txt");
-            InputStream input = new FileInputStream("a.txt")) {
+        try(OutputStream output = new FileOutputStream("Files/a.txt");
+            InputStream input = new FileInputStream("Files/a.txt")) {
             char[] symbols = {'a', 'Ж', '😀'};
 
             for (int i:symbols) {

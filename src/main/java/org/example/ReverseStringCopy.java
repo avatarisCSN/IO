@@ -12,7 +12,7 @@ public class ReverseStringCopy {
         int symbols=0;
         String[] splitted;
 
-        try (BufferedReader input = new BufferedReader(new FileReader("texter.txt"))) {
+        try (BufferedReader input = new BufferedReader(new FileReader("Files/texter.txt"))) {
 
             // Сначала читаем все строки
             String line;
